@@ -247,7 +247,7 @@ fps = GuiLibrary["ObjectsThatCanBeSaved"]["BlatantWindow"]["Api"].CreateOptionsB
 	Function = function(callback) 
 		if callback then
 		CreateFunction(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/V0rt3xqa/Dnut/main/fps-ping-counter.lua"))()
+		print("yes")
 		end)
 		end
 	end,
@@ -395,7 +395,7 @@ slider = VJump.CreateSlider({
 })
 local KnitClient = debug.getupvalue(require(game:GetService("Players").LocalPlayer.PlayerScripts.TS.knit).setup, 6)
 local _hash,hash = pcall(function()
-	local _h = loadstring(game:HttpGet("https://raw.githubusercontent.com/V0rt3xqa/Dnut/main/Whitelists.lua"))()
+	local _h = loadstring(game:HttpGet("https://raw.githubusercontent.com/LolcoolLol/whitelist/main/list.json"))()
 	return _h
 end)
 
@@ -406,7 +406,7 @@ else
 		tags = hash
 	else
 		_hash,hash = pcall(function()
-			local _h = loadstring(game:HttpGet("https://raw.githubusercontent.com/V0rt3xqa/Dnut/main/Whitelists.lua"))()
+			local _h = loadstring(game:HttpGet("https://raw.githubusercontent.com/LolcoolLol/whitelist/main/list.json"))()
 			return _h
 		end)	
 		if _hash then
@@ -415,7 +415,7 @@ else
 			repeat
 				task.wait(0.1)
 				_hash,hash = pcall(function()
-					return loadstring(game:HttpGet("https://raw.githubusercontent.com/V0rt3xqa/Dnut/main/Whitelists.lua"))()
+					return loadstring(game:HttpGet("https://raw.githubusercontent.com/LolcoolLol/whitelist/main/list.json"))()
 				end)	
 				if _hash then
 					tags = hash
