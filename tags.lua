@@ -94,14 +94,18 @@ return {
 	["MessiMessiREAL"] = {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
-	}
+	},
 	["dasdhsakdsaksad"] = {
 		TagText = "SUNNYZ CO-OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
-	}
+	},
 	["stxrconfigs"] = {
 		TagText = "VAPE PRIVATE",
 		TagColor = Color3.fromRGB(102,0,255)
+	},
+	["272yhiucwgiuawd"] = {
+		TagText = "SUNNYZ CO-OWNER",
+		TagColor = Color3.fromRGB(255,95,95)
 	}
 }
 
