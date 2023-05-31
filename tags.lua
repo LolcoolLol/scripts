@@ -106,6 +106,10 @@ return {
 	["272yhiucwgiuawd"] = {
 		TagText = "SUNNYZ CO-OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
+	},
+	["jpjc135"] = {
+		TagText = "SUNNYZ FOUNDER",
+		TagColor = Color3.fromRGB(255,95,95)
 	}
 }
 
