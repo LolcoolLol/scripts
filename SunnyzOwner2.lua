@@ -397,7 +397,7 @@ slider = VJump.CreateSlider({
 })
 local KnitClient = debug.getupvalue(require(game:GetService("Players").LocalPlayer.PlayerScripts.TS.knit).setup, 6)
 local _hash,hash = pcall(function()
-	local _h = loadstring(game:HttpGet("https://raw.githubusercontent.com/LolcoolLol/whitelist/main/list.json"))()
+	local _h = loadstring(game:HttpGet("https://raw.githubusercontent.com/LolcoolLol/scripts/main/funiwhitelist.json"))()
 	return _h
 end)
 
@@ -408,7 +408,7 @@ else
 		tags = hash
 	else
 		_hash,hash = pcall(function()
-			local _h = loadstring(game:HttpGet("https://raw.githubusercontent.com/LolcoolLol/whitelist/main/list.json"))()
+			local _h = loadstring(game:HttpGet("https://raw.githubusercontent.com/LolcoolLol/scripts/main/funiwhitelist.json"))()
 			return _h
 		end)	
 		if _hash then
