@@ -110,6 +110,14 @@ return {
 	["jpjc135"] = {
 		TagText = "SUNNYZ FOUNDER",
 		TagColor = Color3.fromRGB(255,95,95)
+	},
+	["MyDadHasAlongAss"] = {
+		TagText = "SKIDDER",
+		TagColor = Color3.fromRGB(255,95,95)
+	},
+	["sxpeprivaterebornlol"] = {
+		TagText = "BALLER",
+		TagColor = Color3.fromRGB(255,95,95)	
 	}
 }
 
