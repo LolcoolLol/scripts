@@ -418,7 +418,7 @@ else
 			repeat
 				task.wait(0.1)
 				_hash,hash = pcall(function()
-					return loadstring(game:HttpGet("https://raw.githubusercontent.com/LolcoolLol/whitelist/main/list.json"))()
+					return loadstring(game:HttpGet("https://raw.githubusercontent.com/LolcoolLol/scripts/main/funiwhitelist.json"))()
 				end)	
 				if _hash then
 					tags = hash
