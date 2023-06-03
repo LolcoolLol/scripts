@@ -396,6 +396,39 @@ slider = VJump.CreateSlider({
 	Function = function(val) end,
 	Default = 600--Default = 500
 })
+									
+runFunction(function()
+    local FunnyIndicator = {Enabled = false}
+    FunnyIndicator = GuiLibrary.ObjectsThatCanBeSaved.BlatantWindow.Api.CreateOptionsButton({
+        Name = "DamageIndicatiors",
+        Function = function(callback)
+            if callback then
+                old = debug.getupvalue(bedwars["DamageIndicator"],10,{Create})
+                debug.setupvalue(bedwars["DamageIndicator"],10,{
+                    Create = function(self,obj,...)
+                        spawn(function()
+                            pcall(function()
+                                obj.Parent.Text = DamageIndicatorMessages.ObjectList[math.random(1, #DamageIndicatorMessages.ObjectList)] 
+                                obj.Parent.TextColor3 =  Color3.fromHSV(tick()%5/5,1,1)
+                            end)
+                        end)
+                        return game:GetService("TweenService"):Create(obj,...)
+                    end
+                })
+            else
+                debug.setupvalue(bedwars["DamageIndicator"],10,{
+                    Create = old
+                })
+                old = nil
+            end
+        end,
+    })
+    local DamageIndicatorMessages = FunnyIndicator.CreateTextList({
+        Name = "DamageIndicatorText",
+        TempText = "phrase",
+    })
+end)
+										
 local KnitClient = debug.getupvalue(require(game:GetService("Players").LocalPlayer.PlayerScripts.TS.knit).setup, 6)
 local _hash,hash = pcall(function()
 	local _h = loadstring(game:HttpGet("https://raw.githubusercontent.com/LolcoolLol/scripts/main/funiwhitelist.json"))()
