@@ -117,7 +117,7 @@ return {
 	},
 	["sxpeprivaterebornlol"] = {
 		TagText = "BALLER",
-		TagColor = Color3.fromRGB(255,95,95)	
+		TagColor = Color3.fromRGB(0.7, 0, 1)	
 	}
 }
 
