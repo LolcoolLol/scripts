@@ -116,7 +116,7 @@ return {
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["sxpeprivaterebornlol"] = {
-		TagText = "VAPE OWNER",
+		TagText = "WINDOWS 12 OWNER",
 		TagColor = Color3.fromRGB(255,95,95)	
 	}
 }
