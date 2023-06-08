@@ -115,8 +115,8 @@ return {
 		TagText = "VAPE REBORN",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
-	["sxpeprivaterebornlol"] = {
-		TagText = "WINDOWS 12 OWNER",
+	["fluxteamdidnothingwr"] = {
+		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)	
 	}
 }
