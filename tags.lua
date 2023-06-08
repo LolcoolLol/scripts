@@ -116,7 +116,7 @@ return {
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["fluxteamdidnothingwr"] = {
-		TagText = "VAPE OWNER",
+		TagText = "STXR CONFIGS",
 		TagColor = Color3.fromRGB(255,95,95)	
 	}
 }
