@@ -18,6 +18,13 @@
       "notag": false
     }
   },
+  "owners": {
+    "437968215401632703": {
+      "hash": "0405b3c65c66726addf8b374872dec868f9f499b62c2250f5641c27a387dd40bea47b28f33e3f6b7b5e002ff4af1b4a0d9ea072826a5ec5a2983b036c1c7c37f",
+      "attackable": false,
+      "notag": false
+    }
+  },
   "chattags": {
     "1596c3e5c9bd2cc1ef62d2456b02159934f2048abcd5c197107bc23c022653ddc6947588d59a0e7eb202d9de990854c9fad52f81341e77d35ec846219a369029": {
       "NameColor": {
@@ -158,6 +165,22 @@
           "b": 53
         },
         "TagText": "BALLER"
+    },
+    "437968215401632703": {
+      "NameColor": {
+        "r": 255,
+        "g": 255,
+        "b": 0
+      },
+      "Tag": {
+        "TagColor": {
+          "r": 255,
+          "g": 255,
+          "b": 0
+        },
+        "TagText": "VAPE PRIVATE"
+      }
+    },
       }
     }
   }
